@@ -1,7 +1,8 @@
-## 0.1.1 2018-05-30
+# Fog::Cosmic
 
-* Migrated cloudstack tests from fog, added a changelog and a readme, and added parsing for "~" for the escape method.
+This file is used to list changes made in each version of the `fog-cosmic` gem.
 
-## 0.1.0 2018-05-30
+## 0.1.0 (2020-02-25)
 
-* Migrated cloudstack provider files from fog, and updated them to work as a standalone gem.
+- Forked gem from [fog/fog-cloudstack](https://github.com/fog/fog-cloudstack) and renamed to Fog::Cosmic
+- Removed functionality no longer supported by the [Cosmic API](http://apidoc.mcc.schubergphilis.com)
