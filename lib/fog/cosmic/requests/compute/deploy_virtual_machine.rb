@@ -69,8 +69,6 @@ module Fog
 
           guest_os_id = Fog::Cosmic.uuid
 
-          security_group_ids = options['securitygroupids'] || [] # TODO: for now
-
           network_ids = Array(options['networkids']) || [self.data[:networks].first[1]["id"]]
           networks = network_ids.map{|nid| self.data[:networks][nid]}
           nic = networks.map do |network|
@@ -116,7 +114,6 @@ module Fog
             "guestosid" => guest_os_id,
             "rootdeviceid" => 0,
             "rootdevicetype" => "NetworkFilesystem",
-            "securitygroup" => security_group_ids, # TODO: mayhaps?
             "nic" => nic
           }
 

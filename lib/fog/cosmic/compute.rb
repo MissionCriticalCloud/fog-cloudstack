@@ -38,10 +38,6 @@ module Fog
       collection :port_forwarding_rules
       model :project
       collection :projects
-      model :security_group
-      collection :security_groups
-      model :security_group_rule
-      collection :security_group_rules
       model :server
       collection :servers
       model :volume
@@ -53,88 +49,48 @@ module Fog
 
       request :activate_project
       request :add_account_to_project
-      request :add_baremetal_dhcp
-      request :add_baremetal_host
-      request :add_baremetal_pxe_kick_start_server
-      request :add_baremetal_pxe_ping_server
-      request :add_big_switch_vns_device
-      request :add_cisco_asa1000v_resource
-      request :add_cisco_vnmc_resource
       request :add_cluster
-      request :add_external_firewall
-      request :add_external_load_balancer
-      request :add_f5_load_balancer
       request :add_guest_os
       request :add_guest_os_mapping
       request :add_host
       request :add_image_store
       request :add_ip_to_nic
-      request :add_ldap_configuration
-      request :add_netscaler_load_balancer
       request :add_network_device
       request :add_network_service_provider
       request :add_nic_to_virtual_machine
       request :add_nicira_nvp_device
-      request :add_open_daylight_controller
-      request :add_palo_alto_firewall
       request :add_region
       request :add_resource_detail
-      request :add_s3
       request :add_secondary_storage
-      request :add_srx_firewall
-      request :add_stratosphere_ssp
-      request :add_swift
-      request :add_traffic_monitor
       request :add_traffic_type
-      request :add_ucs_manager
-      request :add_vmware_dc
       request :add_vpn_user
       request :archive_alerts
       request :archive_events
       request :assign_cert_to_load_balancer
-      request :assign_to_global_load_balancer_rule
       request :assign_to_load_balancer_rule
       request :assign_virtual_machine
       request :associate_ip_address
-      request :associate_ucs_profile_to_blade
       request :attach_iso
       request :attach_volume
-      request :authorize_security_group_egress
-      request :authorize_security_group_ingress
       request :cancel_host_maintenance
       request :cancel_storage_maintenance
       request :change_service_for_router
       request :change_service_for_system_vm
       request :change_service_for_virtual_machine
       request :clean_vmreservations
-      request :configure_f5_load_balancer
-      request :configure_internal_load_balancer_element
-      request :configure_netscaler_load_balancer
-      request :configure_ovs_element
-      request :configure_palo_alto_firewall
-      request :configure_srx_firewall
       request :configure_virtual_router_element
       request :copy_iso
       request :copy_template
       request :create_account
       request :create_affinity_group
-      request :create_auto_scale_policy
-      request :create_auto_scale_vm_group
-      request :create_auto_scale_vm_profile
-      request :create_condition
-      request :create_counter
       request :create_disk_offering
       request :create_domain
       request :create_egress_firewall_rule
       request :create_firewall_rule
-      request :create_global_load_balancer_rule
       request :create_instance_group
-      request :create_internal_load_balancer_element
       request :create_ip_forwarding_rule
       request :create_lb_health_check_policy
       request :create_lb_stickiness_policy
-      request :create_load_balancer
-      request :create_load_balancer_rule
       request :create_network
       request :create_network_acl
       request :create_network_acl_list
@@ -142,16 +98,12 @@ module Fog
       request :create_physical_network
       request :create_pod
       request :create_port_forwarding_rule
-      request :create_portable_ip_range
       request :create_private_gateway
       request :create_project
       request :create_remote_access_vpn
       request :create_secondary_staging_store
-      request :create_security_group
-      request :create_service_instance
       request :create_service_offering
       request :create_snapshot
-      request :create_snapshot_policy
       request :create_ssh_key_pair
       request :create_static_route
       request :create_storage_network_ip_range
@@ -179,25 +131,12 @@ module Fog
       request :delete_account_from_project
       request :delete_affinity_group
       request :delete_alerts
-      request :delete_auto_scale_policy
-      request :delete_auto_scale_vm_group
-      request :delete_auto_scale_vm_profile
-      request :delete_big_switch_vns_device
-      request :delete_cisco_asa1000v_resource
-      request :delete_cisco_nexus_vsm
-      request :delete_cisco_vnmc_resource
       request :delete_cluster
-      request :delete_condition
-      request :delete_counter
       request :delete_disk_offering
       request :delete_domain
       request :delete_egress_firewall_rule
       request :delete_events
-      request :delete_external_firewall
-      request :delete_external_load_balancer
-      request :delete_f5_load_balancer
       request :delete_firewall_rule
-      request :delete_global_load_balancer_rule
       request :delete_host
       request :delete_image_store
       request :delete_instance_group
@@ -205,10 +144,6 @@ module Fog
       request :delete_iso
       request :delete_lb_health_check_policy
       request :delete_lb_stickiness_policy
-      request :delete_ldap_configuration
-      request :delete_load_balancer
-      request :delete_load_balancer_rule
-      request :delete_netscaler_load_balancer
       request :delete_network
       request :delete_network_acl
       request :delete_network_acl_list
@@ -216,22 +151,16 @@ module Fog
       request :delete_network_offering
       request :delete_network_service_provider
       request :delete_nicira_nvp_device
-      request :delete_open_daylight_controller
-      request :delete_palo_alto_firewall
       request :delete_physical_network
       request :delete_pod
       request :delete_port_forwarding_rule
-      request :delete_portable_ip_range
       request :delete_private_gateway
       request :delete_project
       request :delete_project_invitation
       request :delete_remote_access_vpn
       request :delete_secondary_staging_store
-      request :delete_security_group
       request :delete_service_offering
       request :delete_snapshot
-      request :delete_snapshot_policies
-      request :delete_srx_firewall
       request :delete_ssh_key_pair
       request :delete_ssl_cert
       request :delete_static_route
@@ -239,7 +168,6 @@ module Fog
       request :delete_storage_pool
       request :delete_tags
       request :delete_template
-      request :delete_traffic_monitor
       request :delete_traffic_type
       request :delete_user
       request :delete_vlan_ip_range
@@ -258,14 +186,10 @@ module Fog
       request :detach_iso
       request :detach_volume
       request :disable_account
-      request :disable_auto_scale_vm_group
-      request :disable_cisco_nexus_vsm
       request :disable_static_nat
       request :disable_user
       request :disassociate_ip_address
       request :enable_account
-      request :enable_auto_scale_vm_group
-      request :enable_cisco_nexus_vsm
       request :enable_static_nat
       request :enable_storage_maintenance
       request :enable_user
@@ -276,7 +200,6 @@ module Fog
       request :find_hosts_for_migration
       request :find_storage_pools_for_migration
       request :generate_alert
-      request :generate_usage_records
       request :get_api_limit
       request :get_cloud_identifier
       request :get_user
@@ -290,21 +213,10 @@ module Fog
       request :list_alerts
       request :list_apis
       request :list_async_jobs
-      request :list_auto_scale_policies
-      request :list_auto_scale_vm_groups
-      request :list_auto_scale_vm_profiles
-      request :list_baremetal_dhcp
-      request :list_baremetal_pxe_servers
-      request :list_big_switch_vns_devices
       request :list_capabilities
       request :list_capacity
-      request :list_cisco_asa1000v_resources
-      request :list_cisco_nexus_vsms
-      request :list_cisco_vnmc_resources
       request :list_clusters
-      request :list_conditions
       request :list_configurations
-      request :list_counters
       request :list_dedicated_clusters
       request :list_dedicated_guest_vlan_ranges
       request :list_dedicated_hosts
@@ -317,32 +229,21 @@ module Fog
       request :list_egress_firewall_rules
       request :list_event_types
       request :list_events
-      request :list_external_firewalls
-      request :list_external_load_balancers
-      request :list_f5_load_balancer_networks
-      request :list_f5_load_balancers
       request :list_firewall_rules
-      request :list_global_load_balancer_rules
       request :list_guest_os_mapping
       request :list_hosts
       request :list_hypervisor_capabilities
       request :list_hypervisors
       request :list_image_stores
       request :list_instance_groups
-      request :list_internal_load_balancer_elements
-      request :list_internal_load_balancer_vms
       request :list_ip_forwarding_rules
       request :list_iso_permissions
       request :list_isos
       request :list_lb_health_check_policies
       request :list_lb_stickiness_policies
-      request :list_ldap_configurations
       request :list_ldap_users
       request :list_load_balancer_rule_instances
       request :list_load_balancer_rules
-      request :list_load_balancers
-      request :list_netscaler_load_balancer_networks
-      request :list_netscaler_load_balancers
       request :list_network_acl_lists
       request :list_network_acls
       request :list_network_device
@@ -353,16 +254,11 @@ module Fog
       request :list_nicira_nvp_device_networks
       request :list_nicira_nvp_devices
       request :list_nics
-      request :list_open_daylight_controllers
       request :list_os_categories
       request :list_os_types
-      request :list_ovs_elements
-      request :list_palo_alto_firewall_networks
-      request :list_palo_alto_firewalls
       request :list_physical_networks
       request :list_pods
       request :list_port_forwarding_rules
-      request :list_portable_ip_ranges
       request :list_private_gateways
       request :list_project_accounts
       request :list_project_invitations
@@ -373,14 +269,9 @@ module Fog
       request :list_resource_details
       request :list_resource_limits
       request :list_routers
-      request :list_s3s
       request :list_secondary_staging_stores
-      request :list_security_groups
       request :list_service_offerings
-      request :list_snapshot_policies
       request :list_snapshots
-      request :list_srx_firewall_networks
-      request :list_srx_firewalls
       request :list_ssh_key_pairs
       request :list_ssl_certs
       request :list_static_routes
@@ -388,25 +279,16 @@ module Fog
       request :list_storage_pools
       request :list_storage_providers
       request :list_supported_network_services
-      request :list_swifts
       request :list_system_vms
       request :list_tags
       request :list_template_permissions
       request :list_templates
-      request :list_traffic_monitors
-      request :list_traffic_type_implementors
       request :list_traffic_types
-      request :list_ucs_blades
-      request :list_ucs_managers
-      request :list_ucs_profiles
-      request :list_usage_records
-      request :list_usage_types
       request :list_users
       request :list_virtual_machines
       request :list_virtual_router_elements
       request :list_vlan_ip_ranges
       request :list_vm_snapshot
-      request :list_vmware_dcs
       request :list_volumes
       request :list_vpc_offerings
       request :list_vpcs
@@ -442,7 +324,6 @@ module Fog
       request :release_host_reservation
       request :release_public_ip_range
       request :remove_cert_from_load_balancer
-      request :remove_from_global_load_balancer_rule
       request :remove_from_load_balancer_rule
       request :remove_guest_os
       request :remove_guest_os_mapping
@@ -450,7 +331,6 @@ module Fog
       request :remove_nic_from_virtual_machine
       request :remove_region
       request :remove_resource_detail
-      request :remove_vmware_dc
       request :remove_vpn_user
       request :replace_network_acl_list
       request :reset_api_limit
@@ -463,24 +343,16 @@ module Fog
       request :restore_virtual_machine
       request :revert_snapshot
       request :revert_to_vm_snapshot
-      request :revoke_security_group_egress
-      request :revoke_security_group_ingress
       request :scale_system_vm
       request :scale_virtual_machine
-      request :start_internal_load_balancer_vm
       request :start_router
       request :start_system_vm
       request :start_virtual_machine
-      request :stop_internal_load_balancer_vm
       request :stop_router
       request :stop_system_vm
       request :stop_virtual_machine
       request :suspend_project
       request :update_account
-      request :update_auto_scale_policy
-      request :update_auto_scale_vm_group
-      request :update_auto_scale_vm_profile
-      request :update_cloud_to_use_object_store
       request :update_cluster
       request :update_configuration
       request :update_default_nic_for_virtual_machine
@@ -488,7 +360,6 @@ module Fog
       request :update_domain
       request :update_egress_firewall_rule
       request :update_firewall_rule
-      request :update_global_load_balancer_rule
       request :update_guest_os
       request :update_guest_os_mapping
       request :update_host
@@ -500,8 +371,6 @@ module Fog
       request :update_iso_permissions
       request :update_lb_health_check_policy
       request :update_lb_stickiness_policy
-      request :update_load_balancer
-      request :update_load_balancer_rule
       request :update_network
       request :update_network_acl_item
       request :update_network_acl_list
@@ -521,7 +390,6 @@ module Fog
       request :update_storage_pool
       request :update_template
       request :update_template_permissions
-      request :update_traffic_type
       request :update_user
       request :update_virtual_machine
       request :update_vm_affinity_group
@@ -767,7 +635,6 @@ module Fog
                 "domainid"              => 1,
                 "domainname"            => "ROOT",
                 "networktype"           => "Advanced",
-                "securitygroupsenabled" => false,
                 "allocationstate"       => "Enabled",
                 "zonetoken"             => Fog::Cosmic.uuid,
                 "dhcpprovider"          => "VirtualRouter"}},
@@ -876,7 +743,6 @@ module Fog
                   "isextractable"=>false
                   },
                 },
-              :security_groups => {},
               :snapshots       => {},
               :disk_offerings  => {
                 "cc4de87d-672d-4353-abb5-6a8a4c0abf59" => {
@@ -905,8 +771,8 @@ module Fog
               :network_offerings  => {
                 "cc4de87d-672d-4353-abb5-6a8a4c0abf59" => {
                   "id"                => "cc4de87d-672d-4353-abb5-6a8a4c0abf59",
-                  "name"              => "Shared Network With Security Groups",
-                  "displaytext"       => "Shared Network With Security Groups",
+                  "name"              => "Shared Network",
+                  "displaytext"       => "Shared Network",
                   "traffictype"       => "Guest",
                   "isdefault"         => true,
                   "specifyvlan"       => true,
