@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | zone requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | zone requests', ['cosmic']) do
 
   @zones_format = {
     'listzonesresponse'  => {
@@ -25,7 +25,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | zone requests', ['cloudstack']) do
 
     tests('#list_zones').formats(@zones_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_zones
+      Fog::Compute[:cosmic].list_zones
     end
 
   end

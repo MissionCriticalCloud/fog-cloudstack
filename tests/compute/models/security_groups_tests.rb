@@ -1,9 +1,9 @@
-Shindo.tests("Fog::Compute[:cloudstack] | security_group", ['cloudstack']) do
+Shindo.tests("Fog::Compute[:cosmic] | security_group", ['cosmic']) do
   @params = {
-    :name => "cloudstack.sg.#{Time.now.to_i}"
+    :name => "cosmic.sg.#{Time.now.to_i}"
   }
 
-  collection_tests(Fog::Compute['cloudstack'].security_groups, @params, true) do
+  collection_tests(Fog::Compute['cosmic'].security_groups, @params, true) do
     responds_to(:rules)
   end
 end

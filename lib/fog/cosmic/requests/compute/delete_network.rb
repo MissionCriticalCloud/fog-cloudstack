@@ -1,0 +1,25 @@
+module Fog
+  module Cosmic
+    class Compute
+
+      class Real
+        # Deletes a network
+        #
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteNetwork.html]
+        def delete_network(*args)
+          options = {}
+          if args[0].is_a? Hash
+            options = args[0]
+            options.merge!('command' => 'deleteNetwork') 
+          else
+            options.merge!('command' => 'deleteNetwork', 
+            'id' => args[0])
+          end
+          request(options)
+        end
+      end
+
+    end
+  end
+end
+

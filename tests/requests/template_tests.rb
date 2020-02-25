@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | template requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | template requests', ['cosmic']) do
 
   @templates_format = {
     'listtemplatesresponse'  => {
@@ -44,7 +44,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | template requests', ['cloudstack']) do
 
     tests('#list_templates').formats(@templates_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_templates('templateFilter' => "executable")
+      Fog::Compute[:cosmic].list_templates('templateFilter' => "executable")
     end
 
   end

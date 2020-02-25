@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | virtual machine requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | virtual machine requests', ['cosmic']) do
 
   @virtual_machines_format = {
     'listvirtualmachinesresponse'  => {
@@ -63,7 +63,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | virtual machine requests', ['cloudstac
 
     tests('#list_virtual_machines').formats(@virtual_machines_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_virtual_machines
+      Fog::Compute[:cosmic].list_virtual_machines
     end
 
   end

@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | snapshot requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | snapshot requests', ['cosmic']) do
 
   @snapshots_format = {
     'listsnapshotsresponse'  => {
@@ -24,7 +24,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | snapshot requests', ['cloudstack']) do
 
     tests('#list_snapshots').formats(@snapshots_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_snapshots
+      Fog::Compute[:cosmic].list_snapshots
     end
 
   end

@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | firewall rule requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | firewall rule requests', ['cosmic']) do
 
   @firewall_rules_format = {
     'listfirewallrulesresponse'  => {
@@ -21,7 +21,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | firewall rule requests', ['cloudstack'
   tests('success') do
 
     tests('#list_firewall_rules').formats(@firewall_rules_format) do
-      Fog::Compute[:cloudstack].list_firewall_rules
+      Fog::Compute[:cosmic].list_firewall_rules
     end
 
   end

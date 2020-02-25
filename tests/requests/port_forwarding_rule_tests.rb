@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | port forwarding rule requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | port forwarding rule requests', ['cosmic']) do
 
   @port_forwarding_rule_format = {
     'listportforwardingrulesresponse'  => {
@@ -25,7 +25,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | port forwarding rule requests', ['clou
   tests('success') do
 
     tests('#list_port_forwarding_rules').formats(@port_forwarding_rule_format) do
-      Fog::Compute[:cloudstack].list_port_forwarding_rules('zoneid' => 1)
+      Fog::Compute[:cosmic].list_port_forwarding_rules('zoneid' => 1)
     end
 
   end
