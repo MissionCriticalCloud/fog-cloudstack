@@ -6,12 +6,12 @@ require 'fog/cosmic/version'
 Gem::Specification.new do |spec|
   spec.name        = 'fog-cosmic'
   spec.version     = Fog::Cosmic::VERSION
-  spec.authors     = ['cloud.ca', 'geemus (Wesley Beary)']
-  spec.email       = ['infra@cloud.ca', 'geemus@gmail.com']
+  spec.authors     = ['cloud.ca', 'geemus (Wesley Beary)', 'Stephen Hoekstra']
+  spec.email       = ['infra@cloud.ca', 'geemus@gmail.com', 'shoekstra@schubergphilis.com']
 
   spec.summary     = %q{Module for the 'fog' gem to support Cosmic}
   spec.description = %q{Module for the 'fog' gem to support Cosmic}
-  spec.homepage    = 'https://github.com/fog/fog-cosmic'
+  spec.homepage    = 'https://github.com/MissionCriticalCloud/fog-cosmic'
   spec.license     = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")

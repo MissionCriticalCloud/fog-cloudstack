@@ -35,3 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Original work
+
+This gem is a fork of [fog/fog-cloudstack](https://github.com/fog/fog-cloudstack) and wouldn't exist without it. It has been modified to remove API methods no longer supported by Cosmic and adds Cosmic API methods not supported by CloudStack.
