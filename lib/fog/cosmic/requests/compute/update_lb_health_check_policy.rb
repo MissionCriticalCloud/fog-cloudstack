@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates LB HealthCheck policy
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateLBHealthCheckPolicy.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateLBHealthCheckPolicy.html]
         def update_lb_health_check_policy(*args)
           options = {}
           if args[0].is_a? Hash

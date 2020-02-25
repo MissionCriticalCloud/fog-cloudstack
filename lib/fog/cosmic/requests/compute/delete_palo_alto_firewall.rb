@@ -5,7 +5,7 @@ module Fog
       class Real
         #  delete a Palo Alto firewall device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deletePaloAltoFirewall.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deletePaloAltoFirewall.html]
         def delete_palo_alto_firewall(*args)
           options = {}
           if args[0].is_a? Hash

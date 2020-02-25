@@ -5,7 +5,7 @@ module Fog
       class Real
         # list baremetal dhcp servers
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listBaremetalDhcp.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listBaremetalDhcp.html]
         def list_baremetal_dhcp(*args)
           options = {}
           if args[0].is_a? Hash

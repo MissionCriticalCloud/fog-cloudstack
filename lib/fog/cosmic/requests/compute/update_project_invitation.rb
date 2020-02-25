@@ -5,7 +5,7 @@ module Fog
       class Real
         # Accepts or declines project invitation
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateProjectInvitation.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateProjectInvitation.html]
         def update_project_invitation(*args)
           options = {}
           if args[0].is_a? Hash

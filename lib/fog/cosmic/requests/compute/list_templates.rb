@@ -5,7 +5,7 @@ module Fog
       class Real
         # List all public, private, and privileged templates.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listTemplates.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listTemplates.html]
         def list_templates(*args)
           options = {}
           if args[0].is_a? Hash

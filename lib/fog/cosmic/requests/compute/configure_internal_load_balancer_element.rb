@@ -5,7 +5,7 @@ module Fog
       class Real
         # Configures an Internal Load Balancer element.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/configureInternalLoadBalancerElement.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/configureInternalLoadBalancerElement.html]
         def configure_internal_load_balancer_element(*args)
           options = {}
           if args[0].is_a? Hash

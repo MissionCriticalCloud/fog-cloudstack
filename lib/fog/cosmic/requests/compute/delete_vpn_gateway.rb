@@ -5,7 +5,7 @@ module Fog
       class Real
         # Delete site to site vpn gateway
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteVpnGateway.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteVpnGateway.html]
         def delete_vpn_gateway(*args)
           options = {}
           if args[0].is_a? Hash

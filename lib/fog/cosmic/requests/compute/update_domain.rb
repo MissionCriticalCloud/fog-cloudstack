@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a domain with a new name
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateDomain.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateDomain.html]
         def update_domain(*args)
           options = {}
           if args[0].is_a? Hash

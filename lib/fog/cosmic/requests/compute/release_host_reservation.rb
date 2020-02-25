@@ -5,7 +5,7 @@ module Fog
       class Real
         # Releases host reservation.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/releaseHostReservation.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/releaseHostReservation.html]
         def release_host_reservation(*args)
           options = {}
           if args[0].is_a? Hash

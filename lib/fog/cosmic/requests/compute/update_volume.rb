@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates the volume.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateVolume.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateVolume.html]
         def update_volume(*args)
           options = {}
           if args[0].is_a? Hash

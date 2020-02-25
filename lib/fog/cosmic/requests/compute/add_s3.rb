@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds S3
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addS3.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addS3.html]
         def add_s3(*args)
           options = {}
           if args[0].is_a? Hash

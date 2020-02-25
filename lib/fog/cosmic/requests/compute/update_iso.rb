@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates an ISO file.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateIso.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateIso.html]
         def update_iso(*args)
           options = {}
           if args[0].is_a? Hash

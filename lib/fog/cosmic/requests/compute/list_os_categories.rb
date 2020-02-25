@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all supported OS categories for this cloud.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listOsCategories.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listOsCategories.html]
         def list_os_categories(*args)
           options = {}
           if args[0].is_a? Hash

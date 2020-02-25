@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes an traffic monitor host.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteTrafficMonitor.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteTrafficMonitor.html]
         def delete_traffic_monitor(*args)
           options = {}
           if args[0].is_a? Hash

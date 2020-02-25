@@ -5,7 +5,7 @@ module Fog
       class Real
         # Release the dedication for host
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/releaseDedicatedHost.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/releaseDedicatedHost.html]
         def release_dedicated_host(*args)
           options = {}
           if args[0].is_a? Hash

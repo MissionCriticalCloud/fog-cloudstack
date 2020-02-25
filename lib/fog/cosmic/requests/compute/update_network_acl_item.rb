@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates ACL Item with specified Id
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateNetworkACLItem.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateNetworkACLItem.html]
         def update_network_acl_item(*args)
           options = {}
           if args[0].is_a? Hash

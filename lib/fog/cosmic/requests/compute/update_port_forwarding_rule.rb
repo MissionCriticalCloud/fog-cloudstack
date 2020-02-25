@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a port forwarding rule.  Only the private port and the virtual machine can be updated.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updatePortForwardingRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updatePortForwardingRule.html]
         def update_port_forwarding_rule(*args)
           options = {}
           if args[0].is_a? Hash

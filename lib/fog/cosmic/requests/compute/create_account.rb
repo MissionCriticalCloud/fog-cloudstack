@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates an account
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createAccount.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createAccount.html]
         def create_account(*args)
           options = {}
           if args[0].is_a? Hash

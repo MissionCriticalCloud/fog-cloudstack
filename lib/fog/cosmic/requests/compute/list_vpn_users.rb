@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists vpn users
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listVpnUsers.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listVpnUsers.html]
         def list_vpn_users(*args)
           options = {}
           if args[0].is_a? Hash

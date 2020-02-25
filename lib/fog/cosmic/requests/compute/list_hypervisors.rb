@@ -5,7 +5,7 @@ module Fog
       class Real
         # List hypervisors
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listHypervisors.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listHypervisors.html]
         def list_hypervisors(*args)
           options = {}
           if args[0].is_a? Hash

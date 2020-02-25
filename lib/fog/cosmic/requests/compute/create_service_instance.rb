@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a system virtual-machine that implements network services
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createServiceInstance.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createServiceInstance.html]
         def create_service_instance(*args)
           options = {}
           if args[0].is_a? Hash

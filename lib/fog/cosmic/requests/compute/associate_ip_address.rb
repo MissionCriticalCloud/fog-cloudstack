@@ -5,7 +5,7 @@ module Fog
       class Real
         # Acquires and associates a public IP to an account.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/associateIpAddress.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/associateIpAddress.html]
         def associate_ip_address(*args)
           options = {}
           if args[0].is_a? Hash

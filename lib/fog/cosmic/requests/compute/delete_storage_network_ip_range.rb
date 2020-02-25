@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a storage network IP Range.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteStorageNetworkIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteStorageNetworkIpRange.html]
         def delete_storage_network_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

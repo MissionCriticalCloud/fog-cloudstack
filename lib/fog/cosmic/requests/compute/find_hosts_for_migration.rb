@@ -5,7 +5,7 @@ module Fog
       class Real
         # Find hosts suitable for migrating a virtual machine.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/findHostsForMigration.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/findHostsForMigration.html]
         def find_hosts_for_migration(*args)
           options = {}
           if args[0].is_a? Hash

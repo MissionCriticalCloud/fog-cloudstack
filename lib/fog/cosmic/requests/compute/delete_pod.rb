@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a Pod.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deletePod.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deletePod.html]
         def delete_pod(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a network serviceProvider to a physical network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addNetworkServiceProvider.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addNetworkServiceProvider.html]
         def add_network_service_provider(*args)
           options = {}
           if args[0].is_a? Hash

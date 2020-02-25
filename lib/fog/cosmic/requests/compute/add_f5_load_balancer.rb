@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a F5 BigIP load balancer device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addF5LoadBalancer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addF5LoadBalancer.html]
         def add_f5_load_balancer(*args)
           options = {}
           if args[0].is_a? Hash

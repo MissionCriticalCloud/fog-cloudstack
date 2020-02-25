@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists SSL certificates
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listSslCerts.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listSslCerts.html]
         def list_ssl_certs(*args)
           options = {}
           if args[0].is_a? Hash

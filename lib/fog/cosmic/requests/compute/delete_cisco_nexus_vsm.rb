@@ -5,7 +5,7 @@ module Fog
       class Real
         #  delete a Cisco Nexus VSM device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteCiscoNexusVSM.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteCiscoNexusVSM.html]
         def delete_cisco_nexus_vsm(*args)
           options = {}
           if args[0].is_a? Hash

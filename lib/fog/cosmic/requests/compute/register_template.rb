@@ -5,7 +5,7 @@ module Fog
       class Real
         # Registers an existing template into the Cosmic cloud.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/registerTemplate.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/registerTemplate.html]
         def register_template(*args)
           options = {}
           if args[0].is_a? Hash

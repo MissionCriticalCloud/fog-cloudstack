@@ -5,7 +5,7 @@ module Fog
       class Real
         # Update password of a host/pool on management server.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateHostPassword.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateHostPassword.html]
         def update_host_password(*args)
           options = {}
           if args[0].is_a? Hash

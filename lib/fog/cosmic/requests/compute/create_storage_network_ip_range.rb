@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a Storage network IP range.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createStorageNetworkIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createStorageNetworkIpRange.html]
         def create_storage_network_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

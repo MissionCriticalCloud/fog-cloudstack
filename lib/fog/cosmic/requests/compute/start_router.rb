@@ -5,7 +5,7 @@ module Fog
       class Real
         # Starts a router.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/startRouter.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/startRouter.html]
         def start_router(*args)
           options = {}
           if args[0].is_a? Hash

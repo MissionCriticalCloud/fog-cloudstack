@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists Load Balancers
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listLoadBalancers.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listLoadBalancers.html]
         def list_load_balancers(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # List a storage network IP range.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listStorageNetworkIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listStorageNetworkIpRange.html]
         def list_storage_network_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

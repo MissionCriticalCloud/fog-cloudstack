@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists autoscale vm profiles.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listAutoScaleVmProfiles.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listAutoScaleVmProfiles.html]
         def list_auto_scale_vm_profiles(*args)
           options = {}
           if args[0].is_a? Hash

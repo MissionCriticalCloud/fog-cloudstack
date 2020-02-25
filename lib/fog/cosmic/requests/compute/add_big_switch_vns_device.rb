@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a BigSwitch VNS device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addBigSwitchVnsDevice.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addBigSwitchVnsDevice.html]
         def add_big_switch_vns_device(*args)
           options = {}
           if args[0].is_a? Hash

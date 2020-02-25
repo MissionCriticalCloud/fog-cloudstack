@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes snapshot policies for the account.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteSnapshotPolicies.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteSnapshotPolicies.html]
         def delete_snapshot_policies(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Copies an iso from one zone to another.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/copyIso.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/copyIso.html]
         def copy_iso(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a firewall rule for a given ip address
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createFirewallRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createFirewallRule.html]
         def create_firewall_rule(*args)
           options = {}
           if args[0].is_a? Hash

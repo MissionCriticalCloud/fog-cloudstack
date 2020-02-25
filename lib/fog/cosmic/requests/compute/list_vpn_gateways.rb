@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists site 2 site vpn gateways
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listVpnGateways.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listVpnGateways.html]
         def list_vpn_gateways(*args)
           options = {}
           if args[0].is_a? Hash

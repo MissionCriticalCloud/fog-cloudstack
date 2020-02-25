@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteNetwork.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteNetwork.html]
         def delete_network(*args)
           options = {}
           if args[0].is_a? Hash

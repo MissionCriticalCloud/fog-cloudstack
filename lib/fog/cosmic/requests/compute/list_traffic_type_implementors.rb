@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists implementors of implementor of a network traffic type or implementors of all network traffic types
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listTrafficTypeImplementors.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listTrafficTypeImplementors.html]
         def list_traffic_type_implementors(*args)
           options = {}
           if args[0].is_a? Hash

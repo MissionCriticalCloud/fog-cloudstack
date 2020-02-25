@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a port forwarding rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createPortForwardingRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createPortForwardingRule.html]
         def create_port_forwarding_rule(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # List all virtual machine instances that are assigned to a load balancer rule.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listLoadBalancerRuleInstances.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listLoadBalancerRuleInstances.html]
         def list_load_balancer_rule_instances(*args)
           options = {}
           if args[0].is_a? Hash

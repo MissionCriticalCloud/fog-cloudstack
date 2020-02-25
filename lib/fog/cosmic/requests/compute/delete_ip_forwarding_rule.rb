@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes an ip forwarding rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteIpForwardingRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteIpForwardingRule.html]
         def delete_ip_forwarding_rule(*args)
           options = {}
           if args[0].is_a? Hash

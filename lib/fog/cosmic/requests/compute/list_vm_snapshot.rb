@@ -5,7 +5,7 @@ module Fog
       class Real
         # List virtual machine snapshot by conditions
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listVMSnapshot.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listVMSnapshot.html]
         def list_vm_snapshot(*args)
           options = {}
           if args[0].is_a? Hash

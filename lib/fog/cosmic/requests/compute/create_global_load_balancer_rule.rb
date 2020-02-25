@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a global load balancer rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createGlobalLoadBalancerRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createGlobalLoadBalancerRule.html]
         def create_global_load_balancer_rule(*args)
           options = {}
           if args[0].is_a? Hash

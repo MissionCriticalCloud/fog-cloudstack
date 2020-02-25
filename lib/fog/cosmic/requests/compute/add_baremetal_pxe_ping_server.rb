@@ -5,7 +5,7 @@ module Fog
       class Real
         # add a baremetal ping pxe server
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addBaremetalPxePingServer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addBaremetalPxePingServer.html]
         def add_baremetal_pxe_ping_server(*args)
           options = {}
           if args[0].is_a? Hash

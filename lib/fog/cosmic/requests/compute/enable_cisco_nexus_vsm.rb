@@ -5,7 +5,7 @@ module Fog
       class Real
         # Enable a Cisco Nexus VSM device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/enableCiscoNexusVSM.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/enableCiscoNexusVSM.html]
         def enable_cisco_nexus_vsm(*args)
           options = {}
           if args[0].is_a? Hash

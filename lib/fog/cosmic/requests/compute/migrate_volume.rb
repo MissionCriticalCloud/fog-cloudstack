@@ -5,7 +5,7 @@ module Fog
       class Real
         # Migrate volume
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/migrateVolume.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/migrateVolume.html]
         def migrate_volume(*args)
           options = {}
           if args[0].is_a? Hash

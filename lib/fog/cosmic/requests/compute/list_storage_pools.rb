@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists storage pools.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listStoragePools.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listStoragePools.html]
         def list_storage_pools(*args)
           options = {}
           if args[0].is_a? Hash

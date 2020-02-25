@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a network serviceProvider of a physical network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateNetworkServiceProvider.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateNetworkServiceProvider.html]
         def update_network_service_provider(*args)
           options = {}
           if args[0].is_a? Hash

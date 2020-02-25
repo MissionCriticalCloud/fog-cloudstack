@@ -5,7 +5,7 @@ module Fog
       class Real
         # Dedicates a guest vlan range to an account
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/dedicateGuestVlanRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/dedicateGuestVlanRange.html]
         def dedicate_guest_vlan_range(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a autoscale vm profile.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteAutoScaleVmProfile.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteAutoScaleVmProfile.html]
         def delete_auto_scale_vm_profile(*args)
           options = {}
           if args[0].is_a? Hash

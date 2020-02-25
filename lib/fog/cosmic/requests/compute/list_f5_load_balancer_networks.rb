@@ -5,7 +5,7 @@ module Fog
       class Real
         # lists network that are using a F5 load balancer device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listF5LoadBalancerNetworks.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listF5LoadBalancerNetworks.html]
         def list_f5_load_balancer_networks(*args)
           options = {}
           if args[0].is_a? Hash

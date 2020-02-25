@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes a virtual machine or a list of virtual machines from a load balancer rule.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/removeFromLoadBalancerRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/removeFromLoadBalancerRule.html]
         def remove_from_load_balancer_rule(*args)
           options = {}
           if args[0].is_a? Hash

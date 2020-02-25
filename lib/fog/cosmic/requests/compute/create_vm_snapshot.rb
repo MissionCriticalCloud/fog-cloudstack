@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates snapshot for a vm.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createVMSnapshot.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createVMSnapshot.html]
         def create_vm_snapshot(*args)
           options = {}
           if args[0].is_a? Hash

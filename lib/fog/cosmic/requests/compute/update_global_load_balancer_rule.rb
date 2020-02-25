@@ -5,7 +5,7 @@ module Fog
       class Real
         # update global load balancer rules.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateGlobalLoadBalancerRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateGlobalLoadBalancerRule.html]
         def update_global_load_balancer_rule(*args)
           options = {}
           if args[0].is_a? Hash

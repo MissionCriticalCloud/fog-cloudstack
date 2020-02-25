@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a autoscale policy.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteAutoScalePolicy.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteAutoScalePolicy.html]
         def delete_auto_scale_policy(*args)
           options = {}
           if args[0].is_a? Hash

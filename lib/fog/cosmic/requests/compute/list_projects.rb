@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists projects and provides detailed information for listed projects
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listProjects.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listProjects.html]
         def list_projects(*args)
           options = {}
           if args[0].is_a? Hash

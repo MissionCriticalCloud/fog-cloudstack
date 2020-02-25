@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a Cisco Asa 1000v appliance
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addCiscoAsa1000vResource.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addCiscoAsa1000vResource.html]
         def add_cisco_asa1000v_resource(*args)
           options = {}
           if args[0].is_a? Hash

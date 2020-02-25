@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates an account from an LDAP user
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/ldapCreateAccount.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/ldapCreateAccount.html]
         def ldap_create_account(*args)
           options = {}
           if args[0].is_a? Hash

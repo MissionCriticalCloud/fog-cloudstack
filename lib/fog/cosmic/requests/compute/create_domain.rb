@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a domain
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createDomain.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createDomain.html]
         def create_domain(*args)
           options = {}
           if args[0].is_a? Hash

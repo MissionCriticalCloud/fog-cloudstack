@@ -5,7 +5,7 @@ module Fog
       class Real
         # Changes the default NIC on a VM
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateDefaultNicForVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateDefaultNicForVirtualMachine.html]
         def update_default_nic_for_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

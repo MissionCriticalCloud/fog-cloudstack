@@ -5,7 +5,7 @@ module Fog
       class Real
         # Extracts a template
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/extractTemplate.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/extractTemplate.html]
         def extract_template(*args)
           options = {}
           if args[0].is_a? Hash

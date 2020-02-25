@@ -5,7 +5,7 @@ module Fog
       class Real
         # Stops an Internal LB vm.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/stopInternalLoadBalancerVM.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/stopInternalLoadBalancerVM.html]
         def stop_internal_load_balancer_vm(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Destroys a virtual machine. Once destroyed, only the administrator can recover it.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/destroyVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/destroyVirtualMachine.html]
         def destroy_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

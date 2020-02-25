@@ -5,7 +5,7 @@ module Fog
       class Real
         # Disables an AutoScale Vm Group
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/disableAutoScaleVmGroup.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/disableAutoScaleVmGroup.html]
         def disable_auto_scale_vm_group(*args)
           options = {}
           if args[0].is_a? Hash

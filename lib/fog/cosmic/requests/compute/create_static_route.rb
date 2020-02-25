@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a static route
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createStaticRoute.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createStaticRoute.html]
         def create_static_route(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists affinity group types available
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listAffinityGroupTypes.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listAffinityGroupTypes.html]
         def list_affinity_group_types(*args)
           options = {}
           if args[0].is_a? Hash

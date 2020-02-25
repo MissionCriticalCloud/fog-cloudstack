@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists dedicated hosts.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listDedicatedHosts.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listDedicatedHosts.html]
         def list_dedicated_hosts(*args)
           options = {}
           if args[0].is_a? Hash

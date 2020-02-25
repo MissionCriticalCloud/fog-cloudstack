@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes account from the project
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteAccountFromProject.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteAccountFromProject.html]
         def delete_account_from_project(*args)
           options = {}
           if args[0].is_a? Hash

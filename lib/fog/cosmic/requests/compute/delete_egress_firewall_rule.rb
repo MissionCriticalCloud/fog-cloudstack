@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes an ggress firewall rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteEgressFirewallRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteEgressFirewallRule.html]
         def delete_egress_firewall_rule(*args)
           options = {}
           if args[0].is_a? Hash

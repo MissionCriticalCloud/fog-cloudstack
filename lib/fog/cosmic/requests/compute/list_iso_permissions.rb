@@ -5,7 +5,7 @@ module Fog
       class Real
         # List iso visibility and all accounts that have permissions to view this iso.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listIsoPermissions.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listIsoPermissions.html]
         def list_iso_permissions(*args)
           options = {}
           if args[0].is_a? Hash

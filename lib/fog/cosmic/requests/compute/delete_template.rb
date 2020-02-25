@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a template from the system. All virtual machines using the deleted template will not be affected.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteTemplate.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteTemplate.html]
         def delete_template(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Release dedication of zone
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/releaseDedicatedZone.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/releaseDedicatedZone.html]
         def release_dedicated_zone(*args)
           options = {}
           if args[0].is_a? Hash

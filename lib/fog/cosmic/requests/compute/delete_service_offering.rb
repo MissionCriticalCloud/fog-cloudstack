@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a service offering.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteServiceOffering.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteServiceOffering.html]
         def delete_service_offering(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a netscaler load balancer device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addNetscalerLoadBalancer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addNetscalerLoadBalancer.html]
         def add_netscaler_load_balancer(*args)
           options = {}
           if args[0].is_a? Hash

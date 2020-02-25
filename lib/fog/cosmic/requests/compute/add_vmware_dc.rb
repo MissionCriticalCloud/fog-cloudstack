@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a VMware datacenter to specified zone
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addVmwareDc.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addVmwareDc.html]
         def add_vmware_dc(*args)
           options = {}
           if args[0].is_a? Hash

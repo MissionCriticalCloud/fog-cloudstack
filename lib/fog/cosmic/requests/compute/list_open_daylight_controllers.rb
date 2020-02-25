@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists OpenDyalight controllers
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listOpenDaylightControllers.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listOpenDaylightControllers.html]
         def list_open_daylight_controllers(*args)
           options = {}
           if args[0].is_a? Hash

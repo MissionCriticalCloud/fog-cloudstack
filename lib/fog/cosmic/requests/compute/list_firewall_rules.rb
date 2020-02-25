@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all firewall rules for an IP address.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listFirewallRules.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listFirewallRules.html]
         def list_firewall_rules(*args)
           options = {}
           if args[0].is_a? Hash

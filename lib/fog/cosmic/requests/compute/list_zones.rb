@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists zones
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listZones.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listZones.html]
         def list_zones(*args)
           options = {}
           if args[0].is_a? Hash

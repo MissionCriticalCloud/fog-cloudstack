@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists project's accounts
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listProjectAccounts.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listProjectAccounts.html]
         def list_project_accounts(*args)
           options = {}
           if args[0].is_a? Hash

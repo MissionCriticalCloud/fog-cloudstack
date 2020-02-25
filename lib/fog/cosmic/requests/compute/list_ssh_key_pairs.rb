@@ -5,7 +5,7 @@ module Fog
       class Real
         # List registered keypairs
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listSSHKeyPairs.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listSSHKeyPairs.html]
         def list_ssh_key_pairs(*args)
           options = {}
           if args[0].is_a? Hash

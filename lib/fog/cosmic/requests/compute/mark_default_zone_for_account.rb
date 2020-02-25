@@ -5,7 +5,7 @@ module Fog
       class Real
         # Marks a default zone for this account
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/markDefaultZoneForAccount.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/markDefaultZoneForAccount.html]
         def mark_default_zone_for_account(*args)
           options = {}
           if args[0].is_a? Hash

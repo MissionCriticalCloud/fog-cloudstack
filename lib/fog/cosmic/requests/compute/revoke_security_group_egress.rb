@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a particular egress rule from this security group
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/revokeSecurityGroupEgress.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/revokeSecurityGroupEgress.html]
         def revoke_security_group_egress(*args)
           options = {}
           if args[0].is_a? Hash

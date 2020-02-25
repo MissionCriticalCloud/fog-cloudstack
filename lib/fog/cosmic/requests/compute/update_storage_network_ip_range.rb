@@ -5,7 +5,7 @@ module Fog
       class Real
         # Update a Storage network IP range, only allowed when no IPs in this range have been allocated.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateStorageNetworkIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateStorageNetworkIpRange.html]
         def update_storage_network_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

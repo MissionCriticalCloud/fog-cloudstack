@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes specified region
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/removeRegion.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/removeRegion.html]
         def remove_region(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # A command to list events.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listEvents.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listEvents.html]
         def list_events(*args)
           options = {}
           if args[0].is_a? Hash

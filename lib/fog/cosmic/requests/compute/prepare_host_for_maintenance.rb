@@ -5,7 +5,7 @@ module Fog
       class Real
         # Prepares a host for maintenance.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/prepareHostForMaintenance.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/prepareHostForMaintenance.html]
         def prepare_host_for_maintenance(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a host.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteHost.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteHost.html]
         def delete_host(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Migrate current NFS secondary storages to use object store.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateCloudToUseObjectStore.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateCloudToUseObjectStore.html]
         def update_cloud_to_use_object_store(*args)
           options = {}
           if args[0].is_a? Hash

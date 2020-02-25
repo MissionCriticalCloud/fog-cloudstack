@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a firewall rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteFirewallRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteFirewallRule.html]
         def delete_firewall_rule(*args)
           options = {}
           if args[0].is_a? Hash

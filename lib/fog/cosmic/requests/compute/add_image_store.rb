@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds backup image store.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addImageStore.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addImageStore.html]
         def add_image_store(*args)
           options = {}
           if args[0].is_a? Hash

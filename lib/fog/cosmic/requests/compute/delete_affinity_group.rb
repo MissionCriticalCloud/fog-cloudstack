@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes affinity group
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteAffinityGroup.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteAffinityGroup.html]
         def delete_affinity_group(*args)
           options = {}
           if args[0].is_a? Hash

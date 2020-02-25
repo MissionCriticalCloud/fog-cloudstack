@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a network offering.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateNetworkOffering.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateNetworkOffering.html]
         def update_network_offering(*args)
           options = {}
           if args[0].is_a? Hash

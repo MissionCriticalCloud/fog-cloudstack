@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a guest OS name to hypervisor OS name mapping
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addGuestOsMapping.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addGuestOsMapping.html]
         def add_guest_os_mapping(*args)
           options = {}
           if args[0].is_a? Hash

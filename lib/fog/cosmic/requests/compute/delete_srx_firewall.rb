@@ -5,7 +5,7 @@ module Fog
       class Real
         #  delete a SRX firewall device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteSrxFirewall.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteSrxFirewall.html]
         def delete_srx_firewall(*args)
           options = {}
           if args[0].is_a? Hash

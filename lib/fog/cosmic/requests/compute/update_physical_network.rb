@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a physical network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updatePhysicalNetwork.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updatePhysicalNetwork.html]
         def update_physical_network(*args)
           options = {}
           if args[0].is_a? Hash

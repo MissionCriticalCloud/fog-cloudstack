@@ -5,7 +5,7 @@ module Fog
       class Real
         # Recovers a virtual machine.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/recoverVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/recoverVirtualMachine.html]
         def recover_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

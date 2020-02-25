@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes traffic type of a physical network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteTrafficType.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteTrafficType.html]
         def delete_traffic_type(*args)
           options = {}
           if args[0].is_a? Hash

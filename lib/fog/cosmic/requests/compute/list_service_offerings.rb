@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all available service offerings.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listServiceOfferings.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listServiceOfferings.html]
         def list_service_offerings(*args)
           options = {}
           if args[0].is_a? Hash

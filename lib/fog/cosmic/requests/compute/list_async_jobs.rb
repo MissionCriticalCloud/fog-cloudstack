@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all pending asynchronous jobs for the account.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listAsyncJobs.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listAsyncJobs.html]
         def list_async_jobs(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a cluster.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteCluster.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteCluster.html]
         def delete_cluster(*args)
           options = {}
           if args[0].is_a? Hash

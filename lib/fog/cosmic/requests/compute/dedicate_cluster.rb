@@ -5,7 +5,7 @@ module Fog
       class Real
         # Dedicate an existing cluster
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/dedicateCluster.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/dedicateCluster.html]
         def dedicate_cluster(*args)
           options = {}
           if args[0].is_a? Hash

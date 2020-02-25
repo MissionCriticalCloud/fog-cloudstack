@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes a Guest OS Mapping.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/removeGuestOsMapping.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/removeGuestOsMapping.html]
         def remove_guest_os_mapping(*args)
           options = {}
           if args[0].is_a? Hash

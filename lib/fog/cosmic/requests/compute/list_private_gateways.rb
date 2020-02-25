@@ -5,7 +5,7 @@ module Fog
       class Real
         # List private gateways
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listPrivateGateways.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listPrivateGateways.html]
         def list_private_gateways(*args)
           options = {}
           if args[0].is_a? Hash

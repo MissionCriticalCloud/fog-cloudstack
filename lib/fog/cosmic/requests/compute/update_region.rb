@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a region
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateRegion.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateRegion.html]
         def update_region(*args)
           options = {}
           if args[0].is_a? Hash

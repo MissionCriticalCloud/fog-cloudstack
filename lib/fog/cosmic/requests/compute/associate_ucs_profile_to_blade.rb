@@ -5,7 +5,7 @@ module Fog
       class Real
         # associate a profile to a blade
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/associateUcsProfileToBlade.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/associateUcsProfileToBlade.html]
         def associate_ucs_profile_to_blade(*args)
           options = {}
           if args[0].is_a? Hash

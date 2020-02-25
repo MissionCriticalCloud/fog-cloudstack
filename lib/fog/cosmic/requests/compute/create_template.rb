@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a template of a virtual machine. The virtual machine must be in a STOPPED state. A template created from this command is automatically designated as a private template visible to the account that created it.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createTemplate.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createTemplate.html]
         def create_template(*args)
           options = {}
           if args[0].is_a? Hash

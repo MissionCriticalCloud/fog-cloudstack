@@ -5,7 +5,7 @@ module Fog
       class Real
         # Cancels maintenance for primary storage
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/cancelStorageMaintenance.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/cancelStorageMaintenance.html]
         def cancel_storage_maintenance(*args)
           options = {}
           if args[0].is_a? Hash

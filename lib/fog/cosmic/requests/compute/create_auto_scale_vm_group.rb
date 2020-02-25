@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates and automatically starts a virtual machine based on a service offering, disk offering, and template.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createAutoScaleVmGroup.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createAutoScaleVmGroup.html]
         def create_auto_scale_vm_group(*args)
           options = {}
           if args[0].is_a? Hash

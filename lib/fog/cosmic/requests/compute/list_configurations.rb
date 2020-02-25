@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all configurations.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listConfigurations.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listConfigurations.html]
         def list_configurations(*args)
           options = {}
           if args[0].is_a? Hash

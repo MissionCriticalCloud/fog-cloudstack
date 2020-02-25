@@ -5,7 +5,7 @@ module Fog
       class Real
         # Expunge a virtual machine. Once expunged, it cannot be recoverd.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/expungeVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/expungeVirtualMachine.html]
         def expunge_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

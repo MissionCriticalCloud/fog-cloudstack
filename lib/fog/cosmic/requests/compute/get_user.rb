@@ -5,7 +5,7 @@ module Fog
       class Real
         # Find user account by API key
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/getUser.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/getUser.html]
         def get_user(*args)
           options = {}
           if args[0].is_a? Hash

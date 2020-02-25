@@ -5,7 +5,7 @@ module Fog
       class Real
         # Copies a template from one zone to another.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/copyTemplate.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/copyTemplate.html]
         def copy_template(*args)
           options = {}
           if args[0].is_a? Hash

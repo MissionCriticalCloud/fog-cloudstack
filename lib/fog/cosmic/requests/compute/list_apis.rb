@@ -5,7 +5,7 @@ module Fog
       class Real
         # lists all available apis on the server, provided by the Api Discovery plugin
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listApis.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listApis.html]
         def list_apis(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Assign load balancer rule or list of load balancer rules to a global load balancer rules.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/assignToGlobalLoadBalancerRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/assignToGlobalLoadBalancerRule.html]
         def assign_to_global_load_balancer_rule(*args)
           options = {}
           if args[0].is_a? Hash

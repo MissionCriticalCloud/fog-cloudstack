@@ -3,9 +3,9 @@ module Fog
     class Compute
 
       class Real
-        # Lists all network services provided by Cosmic or for the given Provider.
+        # Lists all network services provided by Cosmic or for the given provider.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listSupportedNetworkServices.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listSupportedNetworkServices.html]
         def list_supported_network_services(*args)
           options = {}
           if args[0].is_a? Hash

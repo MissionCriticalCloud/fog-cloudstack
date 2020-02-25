@@ -5,7 +5,7 @@ module Fog
       class Real
         # Archive one or more alerts.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/archiveAlerts.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/archiveAlerts.html]
         def archive_alerts(*args)
           options = {}
           if args[0].is_a? Hash

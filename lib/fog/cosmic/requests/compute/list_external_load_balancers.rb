@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists F5 external load balancer appliances added in a zone.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listExternalLoadBalancers.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listExternalLoadBalancers.html]
         def list_external_load_balancers(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a security group
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createSecurityGroup.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createSecurityGroup.html]
         def create_security_group(*args)
           options = {}
           if args[0].is_a? Hash

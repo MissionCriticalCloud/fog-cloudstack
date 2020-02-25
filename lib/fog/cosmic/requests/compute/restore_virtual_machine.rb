@@ -5,7 +5,7 @@ module Fog
       class Real
         # Restore a VM to original template/ISO or new template/ISO
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/restoreVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/restoreVirtualMachine.html]
         def restore_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

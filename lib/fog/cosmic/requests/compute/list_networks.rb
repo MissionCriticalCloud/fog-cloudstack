@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all available networks.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listNetworks.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listNetworks.html]
         def list_networks(*args)
           options = {}
           if args[0].is_a? Hash

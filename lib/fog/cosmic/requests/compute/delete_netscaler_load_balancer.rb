@@ -5,7 +5,7 @@ module Fog
       class Real
         #  delete a netscaler load balancer device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteNetscalerLoadBalancer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteNetscalerLoadBalancer.html]
         def delete_netscaler_load_balancer(*args)
           options = {}
           if args[0].is_a? Hash

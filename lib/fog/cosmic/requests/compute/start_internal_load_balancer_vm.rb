@@ -5,7 +5,7 @@ module Fog
       class Real
         # Starts an existing internal lb vm.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/startInternalLoadBalancerVM.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/startInternalLoadBalancerVM.html]
         def start_internal_load_balancer_vm(*args)
           options = {}
           if args[0].is_a? Hash

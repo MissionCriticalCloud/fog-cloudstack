@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists accounts and provides detailed account information for listed accounts
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listAccounts.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listAccounts.html]
         def list_accounts(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes vpn user
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/removeVpnUser.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/removeVpnUser.html]
         def remove_vpn_user(*args)
           options = {}
           if args[0].is_a? Hash

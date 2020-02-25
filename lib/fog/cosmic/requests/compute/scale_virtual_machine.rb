@@ -5,7 +5,7 @@ module Fog
       class Real
         # Scales the virtual machine to a new service offering.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/scaleVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/scaleVirtualMachine.html]
         def scale_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

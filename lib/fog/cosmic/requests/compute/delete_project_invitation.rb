@@ -5,7 +5,7 @@ module Fog
       class Real
         # Accepts or declines project invitation
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteProjectInvitation.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteProjectInvitation.html]
         def delete_project_invitation(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a condition
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createCondition.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createCondition.html]
         def create_condition(*args)
           options = {}
           if args[0].is_a? Hash

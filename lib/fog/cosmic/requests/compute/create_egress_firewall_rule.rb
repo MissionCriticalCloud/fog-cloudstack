@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a egress firewall rule for a given network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createEgressFirewallRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createEgressFirewallRule.html]
         def create_egress_firewall_rule(*args)
           options = {}
           if args[0].is_a? Hash

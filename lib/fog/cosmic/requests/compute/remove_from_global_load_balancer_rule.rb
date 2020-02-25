@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes a load balancer rule association with global load balancer rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/removeFromGlobalLoadBalancerRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/removeFromGlobalLoadBalancerRule.html]
         def remove_from_global_load_balancer_rule(*args)
           options = {}
           if args[0].is_a? Hash

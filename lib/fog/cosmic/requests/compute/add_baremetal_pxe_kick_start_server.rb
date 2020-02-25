@@ -5,7 +5,7 @@ module Fog
       class Real
         # add a baremetal pxe server
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addBaremetalPxeKickStartServer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addBaremetalPxeKickStartServer.html]
         def add_baremetal_pxe_kick_start_server(*args)
           options = {}
           if args[0].is_a? Hash

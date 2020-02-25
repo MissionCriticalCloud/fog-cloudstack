@@ -5,7 +5,7 @@ module Fog
       class Real
         #  delete a nicira nvp device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteNiciraNvpDevice.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteNiciraNvpDevice.html]
         def delete_nicira_nvp_device(*args)
           options = {}
           if args[0].is_a? Hash

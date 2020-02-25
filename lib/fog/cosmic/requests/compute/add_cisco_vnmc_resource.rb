@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a Cisco Vnmc Controller
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addCiscoVnmcResource.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addCiscoVnmcResource.html]
         def add_cisco_vnmc_resource(*args)
           options = {}
           if args[0].is_a? Hash

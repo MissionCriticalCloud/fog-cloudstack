@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes detail for the Resource.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/removeResourceDetail.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/removeResourceDetail.html]
         def remove_resource_detail(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists storage pools available for migration of a volume.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/findStoragePoolsForMigration.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/findStoragePoolsForMigration.html]
         def find_storage_pools_for_migration(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a Load Balancer stickiness policy 
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createLBStickinessPolicy.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createLBStickinessPolicy.html]
         def create_lb_stickiness_policy(*args)
           options = {}
           if args[0].is_a? Hash

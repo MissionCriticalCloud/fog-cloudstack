@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a vmsnapshot.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteVMSnapshot.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteVMSnapshot.html]
         def delete_vm_snapshot(*args)
           options = {}
           if args[0].is_a? Hash

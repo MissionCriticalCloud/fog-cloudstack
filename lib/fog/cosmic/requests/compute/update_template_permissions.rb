@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a template visibility permissions. A public template is visible to all accounts within the same domain. A private template is visible only to the owner of the template. A priviledged template is a private template with account permissions added. Only accounts specified under the template permissions are visible to them.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateTemplatePermissions.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateTemplatePermissions.html]
         def update_template_permissions(*args)
           options = {}
           if args[0].is_a? Hash

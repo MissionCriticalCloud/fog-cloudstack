@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a vm group
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteInstanceGroup.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteInstanceGroup.html]
         def delete_instance_group(*args)
           options = {}
           if args[0].is_a? Hash

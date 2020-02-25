@@ -5,7 +5,7 @@ module Fog
       class Real
         # Recalculate and update resource count for an account or domain.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateResourceCount.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateResourceCount.html]
         def update_resource_count(*args)
           options = {}
           if args[0].is_a? Hash

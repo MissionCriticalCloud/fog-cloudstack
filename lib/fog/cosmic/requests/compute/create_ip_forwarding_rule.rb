@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates an ip forwarding rule
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createIpForwardingRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createIpForwardingRule.html]
         def create_ip_forwarding_rule(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Configures a virtual router element.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/configureVirtualRouterElement.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/configureVirtualRouterElement.html]
         def configure_virtual_router_element(*args)
           options = {}
           if args[0].is_a? Hash

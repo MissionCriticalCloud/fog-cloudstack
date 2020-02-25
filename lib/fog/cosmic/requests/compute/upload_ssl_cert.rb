@@ -3,9 +3,9 @@ module Fog
     class Compute
 
       class Real
-        # Upload a certificate to cosmic
+        # Upload a certificate to Cosmic
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/uploadSslCert.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/uploadSslCert.html]
         def upload_ssl_cert(*args)
           options = {}
           if args[0].is_a? Hash

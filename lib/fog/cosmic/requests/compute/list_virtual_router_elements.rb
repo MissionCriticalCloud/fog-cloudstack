@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all available virtual router elements.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listVirtualRouterElements.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listVirtualRouterElements.html]
         def list_virtual_router_elements(*args)
           options = {}
           if args[0].is_a? Hash

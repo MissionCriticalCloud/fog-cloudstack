@@ -5,7 +5,7 @@ module Fog
       class Real
         # Retrieves the current status of asynchronous job.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/queryAsyncJobResult.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/queryAsyncJobResult.html]
         def query_async_job_result(*args)
           options = {}
           if args[0].is_a? Hash

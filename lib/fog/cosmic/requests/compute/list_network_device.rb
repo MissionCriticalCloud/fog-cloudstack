@@ -5,7 +5,7 @@ module Fog
       class Real
         # List network devices
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listNetworkDevice.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listNetworkDevice.html]
         def list_network_device(*args)
           options = {}
           if args[0].is_a? Hash

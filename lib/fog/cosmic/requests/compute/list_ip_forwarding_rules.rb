@@ -5,7 +5,7 @@ module Fog
       class Real
         # List the ip forwarding rules
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listIpForwardingRules.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listIpForwardingRules.html]
         def list_ip_forwarding_rules(*args)
           options = {}
           if args[0].is_a? Hash

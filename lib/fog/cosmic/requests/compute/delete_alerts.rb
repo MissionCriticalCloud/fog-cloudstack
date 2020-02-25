@@ -5,7 +5,7 @@ module Fog
       class Real
         # Delete one or more alerts.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteAlerts.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteAlerts.html]
         def delete_alerts(*args)
           options = {}
           if args[0].is_a? Hash

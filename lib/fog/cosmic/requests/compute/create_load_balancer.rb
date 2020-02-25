@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a Load Balancer
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createLoadBalancer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createLoadBalancer.html]
         def create_load_balancer(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Extracts volume
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/extractVolume.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/extractVolume.html]
         def extract_volume(*args)
           options = {}
           if args[0].is_a? Hash

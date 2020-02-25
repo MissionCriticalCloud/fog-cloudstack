@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a private gateway
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createPrivateGateway.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createPrivateGateway.html]
         def create_private_gateway(*args)
           options = {}
           if args[0].is_a? Hash

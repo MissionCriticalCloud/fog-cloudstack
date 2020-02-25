@@ -5,7 +5,7 @@ module Fog
       class Real
         # Returns user data associated with the VM
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/getVirtualMachineUserData.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/getVirtualMachineUserData.html]
         def get_virtual_machine_user_data(*args)
           options = {}
           if args[0].is_a? Hash

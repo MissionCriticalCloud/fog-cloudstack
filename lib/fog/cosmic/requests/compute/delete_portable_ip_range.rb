@@ -5,7 +5,7 @@ module Fog
       class Real
         # deletes a range of portable public IP's associated with a region
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deletePortableIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deletePortableIpRange.html]
         def delete_portable_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

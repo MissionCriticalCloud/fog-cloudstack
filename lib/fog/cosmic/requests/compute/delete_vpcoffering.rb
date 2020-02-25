@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes VPC offering
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteVPCOffering.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteVPCOffering.html]
         def delete_vpcoffering(*args)
           options = {}
           if args[0].is_a? Hash

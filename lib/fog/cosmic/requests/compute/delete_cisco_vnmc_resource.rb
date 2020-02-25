@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a Cisco Vnmc controller
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteCiscoVnmcResource.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteCiscoVnmcResource.html]
         def delete_cisco_vnmc_resource(*args)
           options = {}
           if args[0].is_a? Hash

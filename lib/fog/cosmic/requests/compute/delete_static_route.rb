@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a static route
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteStaticRoute.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteStaticRoute.html]
         def delete_static_route(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists traffic types of a given physical network.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listTrafficTypes.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listTrafficTypes.html]
         def list_traffic_types(*args)
           options = {}
           if args[0].is_a? Hash

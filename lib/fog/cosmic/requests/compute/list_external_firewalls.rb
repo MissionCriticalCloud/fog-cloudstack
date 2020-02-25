@@ -5,7 +5,7 @@ module Fog
       class Real
         # List external firewall appliances.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listExternalFirewalls.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listExternalFirewalls.html]
         def list_external_firewalls(*args)
           options = {}
           if args[0].is_a? Hash

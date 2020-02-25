@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a user for an account
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteUser.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteUser.html]
         def delete_user(*args)
           options = {}
           if args[0].is_a? Hash

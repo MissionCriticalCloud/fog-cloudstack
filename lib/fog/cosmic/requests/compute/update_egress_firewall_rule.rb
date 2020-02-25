@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates egress firewall rule 
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateEgressFirewallRule.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateEgressFirewallRule.html]
         def update_egress_firewall_rule(*args)
           options = {}
           if args[0].is_a? Hash

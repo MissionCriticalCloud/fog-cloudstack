@@ -5,7 +5,7 @@ module Fog
       class Real
         # Replaces ACL associated with a Network or private gateway
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/replaceNetworkACLList.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/replaceNetworkACLList.html]
         def replace_network_acl_list(*args)
           options = {}
           if args[0].is_a? Hash

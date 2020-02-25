@@ -5,7 +5,7 @@ module Fog
       class Real
         # Disables a user account
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/disableUser.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/disableUser.html]
         def disable_user(*args)
           options = {}
           if args[0].is_a? Hash

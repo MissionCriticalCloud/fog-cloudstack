@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all DeploymentPlanners available.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listDeploymentPlanners.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listDeploymentPlanners.html]
         def list_deployment_planners(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates a hypervisor capabilities.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateHypervisorCapabilities.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateHypervisorCapabilities.html]
         def update_hypervisor_capabilities(*args)
           options = {}
           if args[0].is_a? Hash

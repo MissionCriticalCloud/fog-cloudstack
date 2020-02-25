@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists dedicated clusters.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listDedicatedClusters.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listDedicatedClusters.html]
         def list_dedicated_clusters(*args)
           options = {}
           if args[0].is_a? Hash

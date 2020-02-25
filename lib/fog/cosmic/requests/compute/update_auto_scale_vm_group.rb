@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates an existing autoscale vm group.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateAutoScaleVmGroup.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateAutoScaleVmGroup.html]
         def update_auto_scale_vm_group(*args)
           options = {}
           if args[0].is_a? Hash

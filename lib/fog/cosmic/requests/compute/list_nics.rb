@@ -5,7 +5,7 @@ module Fog
       class Real
         # list the vm nics  IP to NIC
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listNics.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listNics.html]
         def list_nics(*args)
           options = {}
           if args[0].is_a? Hash

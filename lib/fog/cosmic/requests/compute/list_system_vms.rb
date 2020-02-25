@@ -5,7 +5,7 @@ module Fog
       class Real
         # List system virtual machines.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listSystemVms.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listSystemVms.html]
         def list_system_vms(*args)
           options = {}
           if args[0].is_a? Hash

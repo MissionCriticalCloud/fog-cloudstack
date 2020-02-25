@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a detached disk volume.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteVolume.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteVolume.html]
         def delete_volume(*args)
           options = {}
           if args[0].is_a? Hash

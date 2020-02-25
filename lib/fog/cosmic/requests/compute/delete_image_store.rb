@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes an image store .
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteImageStore.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteImageStore.html]
         def delete_image_store(*args)
           options = {}
           if args[0].is_a? Hash

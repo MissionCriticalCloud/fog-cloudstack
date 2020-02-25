@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a Nicira NVP device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addNiciraNvpDevice.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addNiciraNvpDevice.html]
         def add_nicira_nvp_device(*args)
           options = {}
           if args[0].is_a? Hash

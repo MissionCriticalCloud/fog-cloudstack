@@ -5,7 +5,7 @@ module Fog
       class Real
         # List routers.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listRouters.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listRouters.html]
         def list_routers(*args)
           options = {}
           if args[0].is_a? Hash

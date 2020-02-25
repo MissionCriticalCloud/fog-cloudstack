@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a new host.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addHost.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addHost.html]
         def add_host(*args)
           options = {}
           if args[0].is_a? Hash

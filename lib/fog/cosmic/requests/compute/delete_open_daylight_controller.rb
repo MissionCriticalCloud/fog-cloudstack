@@ -5,7 +5,7 @@ module Fog
       class Real
         # Removes an OpenDyalight controler
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteOpenDaylightController.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteOpenDaylightController.html]
         def delete_open_daylight_controller(*args)
           options = {}
           if args[0].is_a? Hash

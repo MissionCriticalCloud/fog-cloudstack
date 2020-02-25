@@ -5,7 +5,7 @@ module Fog
       class Real
         # Stops a system VM.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/stopSystemVm.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/stopSystemVm.html]
         def stop_system_vm(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Stops a virtual machine.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/stopVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/stopVirtualMachine.html]
         def stop_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

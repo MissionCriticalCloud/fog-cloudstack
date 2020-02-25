@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates Network ACL list
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateNetworkACLList.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateNetworkACLList.html]
         def update_network_acl_list(*args)
           options = {}
           if args[0].is_a? Hash

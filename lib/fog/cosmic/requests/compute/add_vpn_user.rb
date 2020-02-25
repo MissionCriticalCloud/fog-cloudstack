@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds vpn users
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addVpnUser.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addVpnUser.html]
         def add_vpn_user(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Upgrades router to use newer template
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/upgradeRouterTemplate.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/upgradeRouterTemplate.html]
         def upgrade_router_template(*args)
           options = {}
           if args[0].is_a? Hash

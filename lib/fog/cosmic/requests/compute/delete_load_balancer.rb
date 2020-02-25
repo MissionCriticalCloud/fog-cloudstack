@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a load balancer
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteLoadBalancer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteLoadBalancer.html]
         def delete_load_balancer(*args)
           options = {}
           if args[0].is_a? Hash

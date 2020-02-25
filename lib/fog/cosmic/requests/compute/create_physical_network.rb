@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a physical network
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createPhysicalNetwork.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createPhysicalNetwork.html]
         def create_physical_network(*args)
           options = {}
           if args[0].is_a? Hash

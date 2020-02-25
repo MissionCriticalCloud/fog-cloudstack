@@ -5,7 +5,7 @@ module Fog
       class Real
         # adds a range of portable public IP's to a region
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createPortableIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createPortableIpRange.html]
         def create_portable_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

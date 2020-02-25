@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds VM to specified network by creating a NIC
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addNicToVirtualMachine.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addNicToVirtualMachine.html]
         def add_nic_to_virtual_machine(*args)
           options = {}
           if args[0].is_a? Hash

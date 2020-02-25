@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds acoount to a project
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addAccountToProject.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addAccountToProject.html]
         def add_account_to_project(*args)
           options = {}
           if args[0].is_a? Hash

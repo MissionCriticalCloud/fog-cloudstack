@@ -5,7 +5,7 @@ module Fog
       class Real
         # create secondary staging store.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createSecondaryStagingStore.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createSecondaryStagingStore.html]
         def create_secondary_staging_store(*args)
           options = {}
           if args[0].is_a? Hash

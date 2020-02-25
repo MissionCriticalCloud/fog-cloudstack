@@ -5,7 +5,7 @@ module Fog
       class Real
         # Cancels host maintenance.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/cancelHostMaintenance.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/cancelHostMaintenance.html]
         def cancel_host_maintenance(*args)
           options = {}
           if args[0].is_a? Hash

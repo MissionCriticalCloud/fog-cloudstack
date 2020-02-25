@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a Ucs manager
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addUcsManager.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addUcsManager.html]
         def add_ucs_manager(*args)
           options = {}
           if args[0].is_a? Hash

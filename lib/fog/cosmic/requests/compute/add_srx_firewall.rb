@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a SRX firewall device
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addSrxFirewall.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addSrxFirewall.html]
         def add_srx_firewall(*args)
           options = {}
           if args[0].is_a? Hash

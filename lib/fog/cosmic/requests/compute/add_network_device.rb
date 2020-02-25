@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds a network device of one of the following types: ExternalDhcp, ExternalFirewall, ExternalLoadBalancer, PxeServer
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addNetworkDevice.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addNetworkDevice.html]
         def add_network_device(*args)
           options = {}
           if args[0].is_a? Hash

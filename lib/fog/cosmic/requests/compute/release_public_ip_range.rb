@@ -5,7 +5,7 @@ module Fog
       class Real
         # Releases a Public IP range back to the system pool
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/releasePublicIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/releasePublicIpRange.html]
         def release_public_ip_range(*args)
           options = {}
           if args[0].is_a? Hash

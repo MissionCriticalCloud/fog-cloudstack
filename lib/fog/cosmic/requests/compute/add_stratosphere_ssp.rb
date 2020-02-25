@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds stratosphere ssp server
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addStratosphereSsp.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addStratosphereSsp.html]
         def add_stratosphere_ssp(*args)
           options = {}
           if args[0].is_a? Hash

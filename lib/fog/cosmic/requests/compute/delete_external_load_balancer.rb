@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a F5 external load balancer appliance added in a zone.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteExternalLoadBalancer.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteExternalLoadBalancer.html]
         def delete_external_load_balancer(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Updates remote access vpn
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/updateRemoteAccessVpn.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/updateRemoteAccessVpn.html]
         def update_remote_access_vpn(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a keypair by name
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteSSHKeyPair.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteSSHKeyPair.html]
         def delete_ssh_key_pair(*args)
           options = {}
           if args[0].is_a? Hash

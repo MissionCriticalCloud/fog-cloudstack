@@ -5,7 +5,7 @@ module Fog
       class Real
         # Creates a snapshot policy for the account.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/createSnapshotPolicy.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/createSnapshotPolicy.html]
         def create_snapshot_policy(*args)
           options = {}
           if args[0].is_a? Hash

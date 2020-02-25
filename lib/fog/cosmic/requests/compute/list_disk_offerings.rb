@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all available disk offerings.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listDiskOfferings.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listDiskOfferings.html]
         def list_disk_offerings(*args)
           options = {}
           if args[0].is_a? Hash

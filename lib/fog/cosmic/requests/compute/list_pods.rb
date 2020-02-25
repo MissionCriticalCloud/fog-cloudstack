@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists all Pods.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listPods.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listPods.html]
         def list_pods(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # List traffic monitor Hosts.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listTrafficMonitors.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listTrafficMonitors.html]
         def list_traffic_monitors(*args)
           options = {}
           if args[0].is_a? Hash

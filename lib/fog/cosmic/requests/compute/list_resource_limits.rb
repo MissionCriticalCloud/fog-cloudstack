@@ -5,7 +5,7 @@ module Fog
       class Real
         # Lists resource limits.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listResourceLimits.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listResourceLimits.html]
         def list_resource_limits(*args)
           options = {}
           if args[0].is_a? Hash

@@ -5,7 +5,7 @@ module Fog
       class Real
         # List internal LB VMs.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listInternalLoadBalancerVMs.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listInternalLoadBalancerVMs.html]
         def list_internal_load_balancer_vms(*args)
           options = {}
           if args[0].is_a? Hash

@@ -3,9 +3,9 @@ module Fog
     class Compute
 
       class Real
-        # Delete a certificate to cosmic
+        # Delete a certificate from Cosmic
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteSslCert.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteSslCert.html]
         def delete_ssl_cert(*args)
           options = {}
           if args[0].is_a? Hash

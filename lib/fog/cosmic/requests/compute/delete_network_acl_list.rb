@@ -5,7 +5,7 @@ module Fog
       class Real
         # Deletes a Network ACL
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/deleteNetworkACLList.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/deleteNetworkACLList.html]
         def delete_network_acl_list(*args)
           options = {}
           if args[0].is_a? Hash

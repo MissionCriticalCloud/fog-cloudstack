@@ -5,7 +5,7 @@ module Fog
       class Real
         # List resource detail(s)
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/listResourceDetails.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/listResourceDetails.html]
         def list_resource_details(*args)
           options = {}
           if args[0].is_a? Hash

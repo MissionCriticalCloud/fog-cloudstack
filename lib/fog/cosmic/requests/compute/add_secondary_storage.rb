@@ -5,7 +5,7 @@ module Fog
       class Real
         # Adds secondary storage.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/addSecondaryStorage.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/addSecondaryStorage.html]
         def add_secondary_storage(*args)
           options = {}
           if args[0].is_a? Hash

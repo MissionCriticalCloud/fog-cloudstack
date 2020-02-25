@@ -3,9 +3,9 @@ module Fog
     class Compute
 
       class Real
-        # Registers an existing ISO into the Cosmic Cloud.
+        # Registers an existing ISO into the Cosmic cloud.
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/registerIso.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/registerIso.html]
         def register_iso(*args)
           options = {}
           if args[0].is_a? Hash

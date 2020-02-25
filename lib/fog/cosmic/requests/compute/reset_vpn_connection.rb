@@ -5,7 +5,7 @@ module Fog
       class Real
         # Reset site to site vpn connection
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/resetVpnConnection.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/resetVpnConnection.html]
         def reset_vpn_connection(*args)
           options = {}
           if args[0].is_a? Hash

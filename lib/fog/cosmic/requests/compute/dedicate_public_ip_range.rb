@@ -5,7 +5,7 @@ module Fog
       class Real
         # Dedicates a Public IP range to an account
         #
-        # {CloudStack API Reference}[http://cloudstack.apache.org/docs/api/apidocs-4.4/root_admin/dedicatePublicIpRange.html]
+        # {Cosmic API Reference}[https://apidoc.mcc.schubergphilis.com/root_admin/dedicatePublicIpRange.html]
         def dedicate_public_ip_range(*args)
           options = {}
           if args[0].is_a? Hash
