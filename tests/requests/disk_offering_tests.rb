@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | disk offering requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | disk offering requests', ['cosmic']) do
 
   @disk_offerings_format = {
     'listdiskofferingsresponse'  => {
@@ -21,7 +21,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | disk offering requests', ['cloudstack'
   tests('success') do
 
     tests('#list_disk_offerings').formats(@disk_offerings_format) do
-      Fog::Compute[:cloudstack].list_disk_offerings
+      Fog::Compute[:cosmic].list_disk_offerings
     end
 
   end

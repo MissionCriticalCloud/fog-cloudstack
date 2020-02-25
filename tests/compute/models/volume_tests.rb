@@ -19,11 +19,11 @@ def volume_tests(connection, params, mocks_implemented = true)
   end
 end
 
-Shindo.tests("Fog::Compute[:cloudstack] | volume", ['cloudstack']) do
+Shindo.tests("Fog::Compute[:cosmic] | volume", ['cosmic']) do
   @params = {
     :volume_attributes => {:name => "somevolume"}.tap do |hash|
       [:zone_id, :disk_offering_id].each do |k|
-        key = "cloudstack_#{k}".to_sym
+        key = "cosmic_#{k}".to_sym
         if Fog.credentials[key]
           hash[k]= Fog.credentials[key]
         end
@@ -31,7 +31,7 @@ Shindo.tests("Fog::Compute[:cloudstack] | volume", ['cloudstack']) do
     end,
     :server_attributes => {}.tap do |hash|
       [:zone_id, :network_ids, :template_id, :service_offering_id].each do |k|
-        key = "cloudstack_#{k}".to_sym
+        key = "cosmic_#{k}".to_sym
         if Fog.credentials[key]
           hash[k]= Fog.credentials[key]
         end
@@ -39,7 +39,7 @@ Shindo.tests("Fog::Compute[:cloudstack] | volume", ['cloudstack']) do
     end
   }
 
-  volume_tests(Fog::Compute[:cloudstack], @params, true) do
+  volume_tests(Fog::Compute[:cosmic], @params, true) do
     responds_to(:ready?)
     responds_to(:flavor)
   end

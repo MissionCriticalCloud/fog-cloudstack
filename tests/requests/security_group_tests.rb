@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | security group requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | security group requests', ['cosmic']) do
   @security_groups_format = {
     'listsecuritygroupsresponse'  => {
       'count' => Integer,
@@ -20,7 +20,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | security group requests', ['cloudstack
 
     tests('#list_security_groups').formats(@security_groups_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_security_groups
+      Fog::Compute[:cosmic].list_security_groups
     end
 
   end

@@ -1,7 +1,7 @@
-Shindo.tests("Fog::Compute[:cloudstack] | disk_offering", ['cloudstack']) do
+Shindo.tests("Fog::Compute[:cosmic] | disk_offering", ['cosmic']) do
   @params = {
     :name => "new disk offering",
     :display_text => 'New Disk Offering'
   }
-  model_tests(Fog::Compute[:cloudstack].disk_offerings, @params, true)
+  model_tests(Fog::Compute[:cosmic].disk_offerings, @params, true)
 end

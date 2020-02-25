@@ -1,4 +1,4 @@
-require 'fog/cloudstack'
+require 'fog/cosmic'
 
 Bundler.require(:test)
 

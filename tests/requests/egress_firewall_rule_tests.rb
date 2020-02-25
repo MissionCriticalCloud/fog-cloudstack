@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | egress firewall rule requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | egress firewall rule requests', ['cosmic']) do
 
   @egress_firewall_rules_format = {
     'listegressfirewallrulesresponse'  => {
@@ -17,7 +17,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | egress firewall rule requests', ['clou
   tests('success') do
 
     tests('#list_egress_firewall_rules').formats(@egress_firewall_rules_format) do
-      Fog::Compute[:cloudstack].list_egress_firewall_rules
+      Fog::Compute[:cosmic].list_egress_firewall_rules
     end
 
   end

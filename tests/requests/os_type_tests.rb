@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | os type requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | os type requests', ['cosmic']) do
 
   @os_types_format = {
     'listostypesresponse'  => {
@@ -24,12 +24,12 @@ Shindo.tests('Fog::Compute[:cloudstack] | os type requests', ['cloudstack']) do
   tests('success') do
 
     tests('#list_os_types').formats(@os_types_format) do
-      Fog::Compute[:cloudstack].list_os_types
+      Fog::Compute[:cosmic].list_os_types
     end
 
     tests('#list_os_categories').formats(@os_categories_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_os_categories
+      Fog::Compute[:cosmic].list_os_categories
     end
 
   end

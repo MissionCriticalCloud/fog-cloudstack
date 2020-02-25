@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | volume requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | volume requests', ['cosmic']) do
 
   @volumes_format = {
     'listvolumesresponse'  => {
@@ -39,7 +39,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | volume requests', ['cloudstack']) do
   tests('success') do
 
     tests('#list_volumes').formats(@volumes_format) do
-      Fog::Compute[:cloudstack].list_volumes('zoneid' => 1)
+      Fog::Compute[:cosmic].list_volumes('zoneid' => 1)
     end
 
   end

@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | public ip address requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | public ip address requests', ['cosmic']) do
 
   @public_ip_addresses_format = {
     'listpublicipaddressesresponse'  => {
@@ -30,7 +30,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | public ip address requests', ['cloudst
   tests('success') do
 
     tests('#list_public_ip_addresses').formats(@public_ip_addresses_format) do
-      Fog::Compute[:cloudstack].list_public_ip_addresses
+      Fog::Compute[:cosmic].list_public_ip_addresses
     end
 
   end

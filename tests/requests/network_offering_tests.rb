@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | network offering requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | network offering requests', ['cosmic']) do
 
   @network_offerings_format = {
     'listnetworkofferingsresponse'  => {
@@ -24,7 +24,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | network offering requests', ['cloudsta
   tests('success') do
 
     tests('#list_network_offerings').formats(@network_offerings_format) do
-      Fog::Compute[:cloudstack].list_network_offerings
+      Fog::Compute[:cosmic].list_network_offerings
     end
 
   end

@@ -1,4 +1,4 @@
-Shindo.tests('Fog::Compute[:cloudstack] | ssh key pairs requests', ['cloudstack']) do
+Shindo.tests('Fog::Compute[:cosmic] | ssh key pairs requests', ['cosmic']) do
 
   @ssh_keys_format = {
     'listsshkeypairsresponse'  => {
@@ -15,7 +15,7 @@ Shindo.tests('Fog::Compute[:cloudstack] | ssh key pairs requests', ['cloudstack'
 
     tests('#list_ssh_key_pairs').formats(@ssh_keys_format) do
       pending if Fog.mocking?
-      Fog::Compute[:cloudstack].list_ssh_key_pairs
+      Fog::Compute[:cosmic].list_ssh_key_pairs
     end
 
   end
