@@ -37,11 +37,6 @@ Shindo.tests('Fog::Compute[:cosmic] | virtual machine requests', ['cosmic']) do
         'groupid' => Fog::Nullable::Integer,
         'isoname' => Fog::Nullable::String,
         'isoid' => Fog::Nullable::Integer,
-        'securitygroup' => [
-           'id' => Integer,
-           'name' => Fog::Nullable::String,
-           'description' => Fog::Nullable::String
-        ],
         'nic' => [
           'id' => String,
           'networkid' => String,

@@ -13,7 +13,6 @@ Shindo.tests('Fog::Compute[:cosmic] | zone requests', ['cosmic']) do
         'vlan' => Fog::Nullable::String,
         'guestcidraddress' => Fog::Nullable::String,
         'networktype' => String,
-        'securitygroupsenabled' => Fog::Nullable::Boolean,
         'allocationstate' => String,
         'dhcpprovider' => String,
         'zonetoken' => Fog::Nullable::String

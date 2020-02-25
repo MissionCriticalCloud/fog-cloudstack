@@ -7,7 +7,6 @@ module Fog
         attribute :domain_id,                   :aliases => 'domainid'
         attribute :domain_name,                 :aliases => ['domainname', 'domain']
         attribute :network_type,                :aliases => 'networktype'
-        attribute :security_groups_enabled,     :aliases => ['securitygroupsenabled', 'securitygroupenabled']
         attribute :allocation_state,            :aliases => 'allocationstate'
         attribute :zone_token,                  :aliases => 'zonetoken'
         attribute :dhcp_provider,               :aliases => 'dhcpprovider'
@@ -26,7 +25,6 @@ module Fog
             'domainid'              => domain_id,
             'guestcidraddress'      => guest_cidr_address,
             'internaldns2'          => internaldns2,
-            'securitygroupenabled'  => security_groups_enabled,
           }
           data = service.create_zone(options)
           merge_attributes(data['createzoneresponse'])

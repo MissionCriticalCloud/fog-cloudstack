@@ -38,14 +38,12 @@ module Fog
         attribute :group
         attribute :key_name,                                :aliases => 'keypair'
         attribute :user_data,                                :aliases => 'userdata'
-        attribute :security_group_list,    :type => :array, :aliases => 'securitygroup'
         attribute :nics,                   :type => :array, :aliases => 'nic'
         attribute :job_id,                                  :aliases => 'jobid'   # only on create
         attribute :size,                   :type => :integer
         attribute :root_disk_size,         :type => :integer
 
         attr_accessor :network_ids, :disk_offering_id, :ip_address, :ip_to_network_list
-        attr_writer :security_group_ids
 
         alias_method :public_ip_address, :ip_address
         alias_method :public_ip_address=, :ip_address=
@@ -101,18 +99,6 @@ module Fog
           service.jobs.new(data["rebootvirtualmachineresponse"])
         end
 
-        def security_groups=(security_groups)
-          self.security_group_ids= Array(security_groups).map(&:id)
-        end
-
-        def security_group_ids
-          @security_group_ids || (self.security_group_list || []).map{|sg| sg["id"]}
-        end
-
-        def security_groups
-          security_group_ids.map{|id| service.security_groups.get(id)}
-        end
-
         def save
           requires :image_id, :flavor_id, :zone_id
 
@@ -139,7 +125,6 @@ module Fog
           options.merge!('affinitygroupnames' => affinity_group_names) if affinity_group_names
           options.merge!('rootdisksize' => root_disk_size) if root_disk_size
           options.merge!('networkids' => network_ids) if network_ids
-          options.merge!('securitygroupids' => security_group_ids) unless security_group_ids.empty?
 
           data = service.deploy_virtual_machine(options)
           merge_attributes(data['deployvirtualmachineresponse'])
